@@ -169,7 +169,6 @@ def main():
         <p style='text-align: center; color: #fff; font-size: 1.2em;'>Predict stock prices using LSTM neural networks</p>
     """, unsafe_allow_html=True)
     
-    # Center input and button using columns
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
         stock_symbol = st.text_input(
